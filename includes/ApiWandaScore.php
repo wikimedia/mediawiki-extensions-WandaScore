@@ -252,45 +252,64 @@ class ApiWandaScore extends ApiBase {
 
 		// Convert **bold** to <strong>
 		$text = preg_replace( '/\*\*(.+?)\*\*/s', '<strong>$1</strong>', $text );
+		$hasBulletPoints = preg_match( '/^\s*\*\s+/m', $text );
+		$hasNumberedPoints = preg_match( '/^\s*\d+\.\s+/m', $text );
 
-		// Convert bullet points (* item) to HTML list items
-		// First, identify if we have bullet points
-		if ( preg_match( '/^\s*\*\s+/m', $text ) ) {
+		if ( $hasBulletPoints || $hasNumberedPoints ) {
 			// Split into lines and process
 			$lines = explode( "\n", $text );
-			$inList = false;
+			$inUnorderedList = false;
+			$inOrderedList = false;
 			$result = [];
 
 			foreach ( $lines as $line ) {
 				$trimmed = trim( $line );
-
+				if ( preg_match( '/^\d+\.\s+(.+)$/', $trimmed, $matches ) ) {
+					if ( $inUnorderedList ) {
+						$result[] = '</ul>';
+						$inUnorderedList = false;
+					}
+					if ( !$inOrderedList ) {
+						$result[] = '<ol>';
+						$inOrderedList = true;
+					}
+					$result[] = '<li>' . trim( $matches[1] ) . '</li>';
+				}
 				// Check if this is a bullet point
-				if ( preg_match( '/^\*\s+(.+)$/', $trimmed, $matches ) ) {
-					if ( !$inList ) {
+				elseif ( preg_match( '/^\*\s+(.+)$/', $trimmed, $matches ) ) {
+					if ( $inOrderedList ) {
+						$result[] = '</ol>';
+						$inOrderedList = false;
+					}
+					if ( !$inUnorderedList ) {
 						$result[] = '<ul>';
-						$inList = true;
+						$inUnorderedList = true;
 					}
 					$result[] = '<li>' . trim( $matches[1] ) . '</li>';
 				} else {
-					// Not a bullet point
-					if ( $inList ) {
+					if ( $inUnorderedList ) {
 						$result[] = '</ul>';
-						$inList = false;
+						$inUnorderedList = false;
+					}
+					if ( $inOrderedList ) {
+						$result[] = '</ol>';
+						$inOrderedList = false;
 					}
 					if ( !empty( $trimmed ) ) {
 						$result[] = '<p>' . $trimmed . '</p>';
 					}
 				}
 			}
-
-			// Close list if still open
-			if ( $inList ) {
+			if ( $inUnorderedList ) {
 				$result[] = '</ul>';
+			}
+			if ( $inOrderedList ) {
+				$result[] = '</ol>';
 			}
 
 			$text = implode( "\n", $result );
 		} else {
-			// No bullet points, just wrap in paragraphs for better spacing
+			// No bullet points or numbered lists, just wrap in paragraphs for better spacing
 			$paragraphs = preg_split( '/\n\s*\n/', $text );
 			$formatted = [];
 			foreach ( $paragraphs as $para ) {
