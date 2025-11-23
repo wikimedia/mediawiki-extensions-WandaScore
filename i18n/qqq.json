@@ -1,5 +1,32 @@
 {
 	"@metadata": {
-		"authors": []
-	}
+		"authors": ["Sanjay Thiyagarajan"]
+	},
+	"wandascore-desc": "{{desc|name=WandaScore|url=https://www.mediawiki.org/wiki/Extension:WandaScore}}",
+	"wandascore": "The name of the extension",
+	"wandascore-tile-title": "Title displayed on the WandaScore tile",
+	"wandascore-tile-loading": "Message shown while the score is being loaded in the tile",
+	"wandascore-tile-error": "Error message shown when the score fails to load in the tile",
+	"wandascore-tile-click-details": "Tooltip or instruction text shown in the tile to view detailed review",
+	"wandascore-review-title": "Title of the detailed review page. Followed by the page name.",
+	"wandascore-review-loading": "Message shown while analyzing page content. Explains that the process may take some time.",
+	"wandascore-review-error": "Error message shown when the detailed review cannot be loaded",
+	"wandascore-review-score-label": "Label for the overall quality score section",
+	"wandascore-review-refresh": "Button text to refresh/regenerate the score",
+	"wandascore-review-timestamp": "Label for the timestamp showing when the page was last reviewed",
+	"wandascore-review-bias-label": "Label for the bias detection metric",
+	"wandascore-review-llm-label": "Label for the metric showing whether content is human-written (vs AI-generated)",
+	"wandascore-review-language-label": "Label for the language quality metric",
+	"wandascore-review-grammar-label": "Label for the grammar and spelling quality metric",
+	"wandascore-review-conciseness-label": "Label for the conciseness metric",
+	"wandascore-form-legend": "Legend text for the form used to select a page to review",
+	"wandascore-form-page-label": "Label for the page title input field",
+	"wandascore-form-submit": "Submit button text to view the review",
+	"wandascore-error-page-not-found": "Error message shown when the requested page is not found. Parameters:\n* $1 - the page title that was not found",
+	"wandascore-error-generation-failed": "Error message shown when score generation fails, with suggestion to check Wanda extension configuration",
+	"apihelp-wandascore-summary": "{{doc-apihelp-summary|wandascore}}",
+	"apihelp-wandascore-param-page": "{{doc-apihelp-param|wandascore|page}}",
+	"apihelp-wandascore-param-refresh": "{{doc-apihelp-param|wandascore|refresh}}",
+	"apihelp-wandascore-example-1": "{{doc-apihelp-example|wandascore}}",
+	"apihelp-wandascore-example-2": "{{doc-apihelp-example|wandascore}}"
 }
