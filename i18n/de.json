@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"wandascore-desc": "KI-gestütztes System zur Bewertung und Überprüfung der Seitenqualität mithilfe der Wanda-Erweiterung",
+	"wandascore-tile-title": "WandaScore",
+	"wandascore-tile-loading": "Lade …",
+	"wandascore-tile-error": "Fehler beim Laden der Punktzahl",
+	"wandascore-tile-click-details": "Klicke hier, um die detaillierte Überprüfung anzuzeigen.",
+	"wandascore-review-title": "WandaScore-Überprüfung für",
+	"wandascore-review-loading": "Seiteninhalt wird analysiert … Dies kann eine Minute dauern.",
+	"wandascore-review-error": "Die Überprüfung konnte nicht geladen werden. Bitte versuche es erneut.",
+	"wandascore-review-score-label": "Gesamtpunktzahl",
+	"wandascore-review-refresh": "Punktzahl aktualisieren",
+	"wandascore-review-timestamp": "Zuletzt überprüft",
+	"wandascore-review-bias-label": "Bias-Erkennung",
+	"wandascore-review-llm-label": "Von Menschen verfasster Inhalt",
+	"wandascore-review-language-label": "Sprachqualität",
+	"wandascore-review-grammar-label": "Grammatik & Rechtschreibung",
+	"wandascore-review-conciseness-label": "Prägnanz",
+	"wandascore-form-legend": "Wähle eine Seite zur Überprüfung aus.",
+	"wandascore-form-page-label": "Seitentitel",
+	"wandascore-form-submit": "Überprüfung ansehen",
+	"wandascore-error-page-not-found": "Seite „$1“ nicht gefunden",
+	"wandascore-error-generation-failed": "Die Ergebnisgenerierung ist fehlgeschlagen. Bitte stelle sicher, dass die Wanda-Erweiterung korrekt konfiguriert ist.",
+	"apihelp-wandascore-summary": "Holt WandaScore für eine Wiki-Seite",
+	"apihelp-wandascore-param-page": "Titel der zu bewertenden Seite",
+	"apihelp-wandascore-param-refresh": "Erzwingt eine Neuberechnung des Ergebnisses anstatt die Verwendung des zwischengespeicherten Werts.",
+	"apihelp-wandascore-example-1": "Holt das Ergebnis für die Hauptseite",
+	"apihelp-wandascore-example-2": "Erneuert das Ergebnis für die Hauptseite"
+}

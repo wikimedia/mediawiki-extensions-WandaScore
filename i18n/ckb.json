@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ayub Abdulla"
+		]
+	},
+	"wandascore-tile-title": "وانداسکۆر",
+	"wandascore-tile-loading": "باركردن‌...",
+	"wandascore-review-title": "پێداچوونەوەی وانداسکۆر بۆ...",
+	"wandascore-review-loading": "شیکردنەوەی ناوەڕۆکی لاپەڕە... ئەمە لەوانەیە خولەکێک بخایەنێت.",
+	"wandascore-review-error": "ناتوانرێت پێداچوونەوە باربکرێت. تکایە دووبارە هەوڵبدەرەوە.",
+	"wandascore-review-score-label": "نمرەی گشتی",
+	"wandascore-review-refresh": "نمرەی نوێکردنەوە",
+	"wandascore-review-timestamp": "دوایین پێداچوونەوە",
+	"wandascore-review-llm-label": "ناوەڕۆکی نووسراوی مرۆڤ",
+	"wandascore-review-language-label": "کوالیتی زمان",
+	"wandascore-review-conciseness-label": "پوختەیی",
+	"wandascore-form-legend": "پەڕەیەک هەڵبژێرە بۆ پێداچوونەوە",
+	"wandascore-form-page-label": "ناونیشانی لاپەڕە",
+	"wandascore-error-page-not-found": "لاپەڕەی \" $1 \" نەدۆزرایەوە",
+	"wandascore-error-generation-failed": "شکستی هێنا لە دروستکردنی نمرە. تکایە دڵنیابە کە درێژکراوەی واندا بە باشی ڕێکخراوە.",
+	"apihelp-wandascore-param-page": "ناونیشانی پەڕەکە بۆ تۆمارکردن",
+	"apihelp-wandascore-example-1": "نمرەکە بهێنە بۆ پەڕەی سەرەکی"
+}

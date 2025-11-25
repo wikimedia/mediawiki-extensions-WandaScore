@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ayub Abdulla"
+		]
+	},
+	"wandascore-tile-title": "WandaScore",
+	"wandascore-tile-error": "Errore durante il caricamento del punteggio",
+	"wandascore-review-language-label": "Qualità della lingua",
+	"wandascore-review-grammar-label": "Grammatica e ortografia",
+	"apihelp-wandascore-example-1": "Ottieni il punteggio per la pagina principale"
+}

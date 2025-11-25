@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Volvox"
+		]
+	},
+	"wandascore-tile-title": "WandaScore",
+	"wandascore-tile-loading": "Lueden...",
+	"wandascore-tile-error": "Feeler beim Luede vun der Bewäertung",
+	"wandascore-review-title": "WandaScore-Iwwerpréiwung fir",
+	"wandascore-review-loading": "Säiteninhalt gëtt analyséiert... Dat kéint eng Minutt daueren.",
+	"wandascore-review-score-label": "Gesamtbewäertung",
+	"wandascore-review-refresh": "Bewäertung aktualiséieren",
+	"wandascore-review-timestamp": "Fir d'lescht iwwerpréift",
+	"wandascore-review-llm-label": "Vu Mënsche geschriwwenen Inhalt",
+	"wandascore-review-language-label": "Sproochqualitéit",
+	"wandascore-review-grammar-label": "Grammatik & Rechtschreiwung",
+	"wandascore-form-legend": "Wielt eng Säit fir z'iwwerpréiwen",
+	"wandascore-form-page-label": "Säitentitel",
+	"wandascore-form-submit": "Bewäertung weisen",
+	"wandascore-error-page-not-found": "Säit „$1“ net fonnt",
+	"wandascore-error-generation-failed": "Et konnt keng Bewäertung gemaach ginn. Iwwerpréift wgl., ob d'Wanda-Erweiderung richteg konfiguréiert ass.",
+	"apihelp-wandascore-param-page": "Titel vun der Säit fir ze bewäerten"
+}

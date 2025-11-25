@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"wandascore-desc": "使用 Wanda 擴充功能的 AI 驅動頁面品質評分與檢閱系統",
+	"wandascore-tile-title": "WandaScore",
+	"wandascore-tile-loading": "載入中…",
+	"wandascore-tile-error": "載入分數時出錯",
+	"wandascore-tile-click-details": "點擊查看詳細檢閱",
+	"wandascore-review-title": "WandaScore 檢閱：",
+	"wandascore-review-loading": "正在分析頁面內容…這可能需要一分鐘。",
+	"wandascore-review-error": "無法載入檢閱。請重試。",
+	"wandascore-review-score-label": "總分",
+	"wandascore-review-refresh": "重整分數",
+	"wandascore-review-timestamp": "最新檢閱。",
+	"wandascore-review-bias-label": "偏差檢測",
+	"wandascore-review-llm-label": "人工撰寫內容",
+	"wandascore-review-language-label": "語言品質",
+	"wandascore-review-grammar-label": "文法和拼字",
+	"wandascore-review-conciseness-label": "簡練",
+	"wandascore-form-legend": "選擇要檢閱的頁面",
+	"wandascore-form-page-label": "頁面標題",
+	"wandascore-form-submit": "查看檢閱",
+	"wandascore-error-page-not-found": "找不到「$1」頁面",
+	"wandascore-error-generation-failed": "產生分數失敗。請確認 Wanda 擴充功能是否正確配置。",
+	"apihelp-wandascore-summary": "取得 wiki 頁面的 WandaScore",
+	"apihelp-wandascore-param-page": "要評分的頁面標題",
+	"apihelp-wandascore-param-refresh": "強制重整分數，而不是使用快取值。",
+	"apihelp-wandascore-example-1": "取得主頁面分數",
+	"apihelp-wandascore-example-2": "取得主頁面最新評分"
+}

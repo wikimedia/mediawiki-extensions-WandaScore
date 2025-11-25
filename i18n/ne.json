@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"बडा काजी"
+		]
+	},
+	"wandascore-tile-title": "वान्डास्कोर",
+	"wandascore-tile-loading": "खुल्दै छ…",
+	"wandascore-review-score-label": "समग्र अङ्क",
+	"wandascore-review-refresh": "मूल्याङ्कन ताजा गर्नुहोस्",
+	"wandascore-review-timestamp": "पछिल्लो पटक समीक्षा गरिएको",
+	"wandascore-review-bias-label": "पूर्वाग्रह पत्ता लगाउने",
+	"wandascore-review-llm-label": "मानव-लिखित सामग्री",
+	"wandascore-review-language-label": "भाषाको गुणस्तर",
+	"wandascore-review-grammar-label": "व्याकरण र हिज्जे",
+	"wandascore-review-conciseness-label": "संक्षिप्तता",
+	"wandascore-form-legend": "समीक्षा गर्न पृष्ठ चयन गर्नुहोस्",
+	"wandascore-form-page-label": "पृष्ठ शीर्षक",
+	"wandascore-form-submit": "समीक्षा हेर्नुहोस्",
+	"wandascore-error-page-not-found": "पृष्ठ \"$1\" फेला परेन",
+	"apihelp-wandascore-summary": "विकि पृष्ठका लागि वान्डास्कोर प्राप्त गर्नुहोस्",
+	"apihelp-wandascore-param-page": "अङ्कका लागि पृष्ठको शीर्षक",
+	"apihelp-wandascore-example-2": "मुख्य पृष्ठका लागि नयाँ अङ्क प्राप्त गर्नुहोस्"
+}

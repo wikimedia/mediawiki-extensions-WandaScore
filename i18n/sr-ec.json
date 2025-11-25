@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Milicevic01"
+		]
+	},
+	"wandascore-tile-loading": "Учитавање…",
+	"wandascore-review-grammar-label": "Граматика & правопис",
+	"wandascore-review-conciseness-label": "Сажетост",
+	"wandascore-form-page-label": "Наслов странице",
+	"wandascore-error-page-not-found": "Страница „$1” није пронађена"
+}

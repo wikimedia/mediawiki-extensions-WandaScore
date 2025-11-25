@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": ["Sanjay Thiyagarajan"]
+		"authors": [
+			"Sanjay Thiyagarajan"
+		]
 	},
 	"wandascore-desc": "{{desc|name=WandaScore|url=https://www.mediawiki.org/wiki/Extension:WandaScore}}",
 	"wandascore": "The name of the extension",
