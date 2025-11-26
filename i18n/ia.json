@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"wandascore-desc": "Systema pro evalutar e revider le qualitate de paginas con IA, usante le extension Wanda",
+	"wandascore": "WandaScore",
+	"wandascore-tile-title": "WandaScore",
+	"wandascore-tile-loading": "Cargamento…",
+	"wandascore-tile-error": "Error cargante le evalutation",
+	"wandascore-tile-click-details": "Clicca pro vider un evalutation detaliate",
+	"wandascore-review-title": "Evalutation WandaScore de",
+	"wandascore-review-loading": "Le contento del pagina se analysa… Isto pote prender un minuta.",
+	"wandascore-review-error": "Non poteva cargar le evalutation. Per favor tenta lo de novo.",
+	"wandascore-review-score-label": "Evalutation general",
+	"wandascore-review-refresh": "Refrescar evalutation",
+	"wandascore-review-timestamp": "Ultime revision",
+	"wandascore-review-bias-label": "Detection de prejudicios",
+	"wandascore-review-llm-label": "Contento scribite per humanos",
+	"wandascore-review-language-label": "Qualitate de linguage",
+	"wandascore-review-grammar-label": "Grammatica e orthographia",
+	"wandascore-review-conciseness-label": "Concision",
+	"wandascore-form-legend": "Selige un pagina a revider",
+	"wandascore-form-page-label": "Titulo del pagina",
+	"wandascore-form-submit": "Vider evalutation",
+	"wandascore-error-page-not-found": "Pagina “$1” non trovate",
+	"wandascore-error-generation-failed": "Fallimento de generar le evalutation. Per favor assecura te que le extension Wanda es configurate correctemente.",
+	"apihelp-wandascore-summary": "Obtener le evalutation Wanda de un pagina wiki",
+	"apihelp-wandascore-param-page": "Titulo del pagina a evalutar",
+	"apihelp-wandascore-param-refresh": "Fortiar le actualisation del evalutation in vice de usar le valor in memoria cache",
+	"apihelp-wandascore-example-1": "Obtener le evalutation del Pagina principal",
+	"apihelp-wandascore-example-2": "Obtener un nove evalutation del Pagina principal"
+}
