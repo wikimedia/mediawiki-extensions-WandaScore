@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"WillyM"
+		]
+	},
+	"wandascore-desc": "Système IA de notation et d'examen de la qualité des pages à l'aide de l'extension Wanda",
+	"wandascore-tile-title": "WandaScore",
+	"wandascore-tile-loading": "Chargement...",
+	"wandascore-tile-error": "Erreur chargement score",
+	"wandascore-tile-click-details": "Cliquez pour voir l'examen détaillé",
+	"wandascore-review-title": "Résumé de WandaScore pour",
+	"wandascore-review-loading": "Analyse du contenu de la page en cours... Ça peut prendre une minute.",
+	"wandascore-review-error": "Impossible de charger le résultat. Veuillez réessayer.",
+	"wandascore-review-score-label": "Score global",
+	"wandascore-review-refresh": "Actualiser le score",
+	"wandascore-review-timestamp": "Dernière évaluation",
+	"wandascore-review-bias-label": "Détection des biais",
+	"wandascore-review-llm-label": "Contenu rédigé par des humains",
+	"wandascore-review-language-label": "Qualité de la langue",
+	"wandascore-review-grammar-label": "Grammaire et orthographe",
+	"wandascore-review-conciseness-label": "Concision",
+	"wandascore-form-legend": "Sélectionnez une page à examiner",
+	"wandascore-form-page-label": "Titre de la page",
+	"wandascore-form-submit": "Voir l'avis",
+	"wandascore-error-page-not-found": "Page \" $1 \" introuvable",
+	"wandascore-error-generation-failed": "Impossible de générer le score. Veuillez vérifier que l'extension Wanda est correctement configurée.",
+	"apihelp-wandascore-summary": "Obtenez le WandaScore pour une page wiki",
+	"apihelp-wandascore-param-page": "Titre de la page à évaluer",
+	"apihelp-wandascore-param-refresh": "Forcer l'actualisation du score au lieu d'utiliser la valeur mise en cache",
+	"apihelp-wandascore-example-1": "Obtenez le score de la page principale",
+	"apihelp-wandascore-example-2": "Obtenez un nouveau score pour la page principale"
+}
