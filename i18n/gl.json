@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"wandascore-desc": "Sistema de puntuación e revisión da calidade das páxinas baseado en IA mediante a extensión Wanda",
+	"wandascore-tile-title": "Puntuación de Wanda",
+	"wandascore-tile-loading": "Cargando...",
+	"wandascore-tile-error": "Produciuse un erro ao cargar a puntuación",
+	"wandascore-tile-click-details": "Fai clic para ver a avaliación detallada",
+	"wandascore-review-title": "Revisión da puntuación de Wanda para",
+	"wandascore-review-loading": "Analizando o contido da páxina... Isto pode tardar un anaco.",
+	"wandascore-review-error": "Non se pode cargar a avaliación. Inténtao de novo.",
+	"wandascore-review-score-label": "Puntuación xeral",
+	"wandascore-review-refresh": "Actualizar a puntuación",
+	"wandascore-review-timestamp": "Última revisión",
+	"wandascore-review-bias-label": "Detección de prexuízos",
+	"wandascore-review-llm-label": "Contido escrito por humanos",
+	"wandascore-review-language-label": "Calidade da linguaxe",
+	"wandascore-review-grammar-label": "Gramática e ortografía",
+	"wandascore-review-conciseness-label": "Concisión",
+	"wandascore-form-legend": "Selecciona unha páxina a revisar",
+	"wandascore-form-page-label": "Título da páxina",
+	"wandascore-form-submit": "Ver a avaliación",
+	"wandascore-error-page-not-found": "Non se atopou a páxina «$1»",
+	"wandascore-error-generation-failed": "Non se puido xerar a puntuación. Asegúrate de que a extensión Wanda estea configurada correctamente.",
+	"apihelp-wandascore-summary": "Obter a puntuación de Wanda para unha páxina wiki",
+	"apihelp-wandascore-param-page": "Título da páxina a puntuar",
+	"apihelp-wandascore-param-refresh": "Forzar a actualización da puntuación en lugar de usar o valor almacenado na caché",
+	"apihelp-wandascore-example-1": "Obtén a puntuación da páxina principal",
+	"apihelp-wandascore-example-2": "Obtén unha puntuación nova da páxina principal"
+}

@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"ExoHyper2026"
+		]
+	},
+	"wandascore-desc": "使用 Wanda 扩展的 AI 驱动页面质量评分和审核系统",
+	"wandascore-tile-title": "WandaScore",
+	"wandascore-tile-loading": "正在加载...",
+	"wandascore-tile-error": "加载评分时出错",
+	"wandascore-tile-click-details": "点击查看详细审核",
+	"wandascore-review-title": "WandaScore 审核：",
+	"wandascore-review-loading": "正在分析页面内容……这可能需要一分钟。",
+	"wandascore-review-error": "无法加载审核。请重试。",
+	"wandascore-review-score-label": "总评分",
+	"wandascore-review-refresh": "刷新评分",
+	"wandascore-review-timestamp": "上次审核",
+	"wandascore-review-bias-label": "偏差检测",
+	"wandascore-review-llm-label": "人工撰写的内容",
+	"wandascore-review-language-label": "语言质量",
+	"wandascore-review-grammar-label": "语法和拼写",
+	"wandascore-review-conciseness-label": "简洁性",
+	"wandascore-form-legend": "选择要查看的页面",
+	"wandascore-form-page-label": "页面标题",
+	"wandascore-form-submit": "查看审核",
+	"wandascore-error-page-not-found": "找不到“$1”页面。",
+	"wandascore-error-generation-failed": "生成评分失败。请确保 Wanda 扩展程序已正确配置。",
+	"apihelp-wandascore-summary": "获取维基页面的 WandaScore",
+	"apihelp-wandascore-param-page": "要评分的页面标题",
+	"apihelp-wandascore-param-refresh": "强制刷新评分，而不是使用缓存的值。",
+	"apihelp-wandascore-example-1": "获取主页面评分",
+	"apihelp-wandascore-example-2": "获取主页面的最新评分"
+}
