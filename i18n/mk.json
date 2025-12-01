@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"wandascore-desc": "Оценување на квалитет на страници со помош на вештачка интелигенција користејќи го додатокот Ванда",
+	"wandascore-tile-title": "WandaScore",
+	"wandascore-tile-loading": "Вчитувам...",
+	"wandascore-tile-error": "Гршка при вчитувањето на бодовите",
+	"wandascore-tile-click-details": "Стиснете за подробен преглед на оценката",
+	"wandascore-review-title": "Оценка на WandaScore за",
+	"wandascore-review-loading": "Ја анализирам содржината на страницата... Ова може да потрае малку.",
+	"wandascore-review-error": "Не можам да ја вчитам оценката. Обидете се подоцна.",
+	"wandascore-review-score-label": "Севкупна оценка",
+	"wandascore-review-refresh": "Превчитај оценка",
+	"wandascore-review-timestamp": "Последно прегледано",
+	"wandascore-review-bias-label": "Пронаоѓање на пристрасност",
+	"wandascore-review-llm-label": "Содржина напишана од човек",
+	"wandascore-review-language-label": "Квалитет на јазикот",
+	"wandascore-review-grammar-label": "Граматика и правопис",
+	"wandascore-review-conciseness-label": "Концизност",
+	"wandascore-form-legend": "Изберете страница за оценување",
+	"wandascore-form-page-label": "Наслов на страницата",
+	"wandascore-form-submit": "Прикажи оценка",
+	"wandascore-error-page-not-found": "Страницата „$1“ не е пронајдена",
+	"wandascore-error-generation-failed": "Не успеав да ја создадам оценката. Погледајте дали додатокот „Ванда“ е правилно нагоден",
+	"apihelp-wandascore-summary": "Дај WandaScore за викистраница",
+	"apihelp-wandascore-param-page": "Наслов на страницата за оценување",
+	"apihelp-wandascore-param-refresh": "Присилно превчитај ја оценката наместо да се користи меѓускладирана вредност",
+	"apihelp-wandascore-example-1": "Добивање на оценка од Главната страница",
+	"apihelp-wandascore-example-2": "Добивање на подновена оценка за Главната страница"
+}

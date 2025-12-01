@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Maria Manuela Silva"
+		]
+	},
+	"wandascore-tile-loading": "A carregar...",
+	"wandascore-review-refresh": "Atualizar Pontuação",
+	"wandascore-review-timestamp": "Última revisão",
+	"wandascore-review-llm-label": "Conteúdo Escrito por Humanos",
+	"wandascore-review-language-label": "Qualidade da Linguagem",
+	"wandascore-form-page-label": "Título da página",
+	"wandascore-error-page-not-found": "Página \"$1\" não encontrada"
+}
