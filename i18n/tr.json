@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hedda"
+		]
+	},
+	"wandascore-desc": "Wanda eklentisiyle çalışan, yapay zekâ destekli sayfa kalitesi puanlama ve inceleme sistemi",
+	"wandascore-tile-title": "WandaPuanı",
+	"wandascore-tile-loading": "Yükleniyor...",
+	"wandascore-tile-error": "Puan yüklenirken hata oluştu",
+	"wandascore-tile-click-details": "Ayrıntılı incelemeyi görmek için tıklayın",
+	"wandascore-review-title": "Şu sayfa için WandaPuanı incelemesi:",
+	"wandascore-review-loading": "Sayfa içeriği analiz ediliyor... Bu işlem biraz zaman alabilir.",
+	"wandascore-review-error": "İnceleme yüklenemedi. Lütfen tekrar deneyin.",
+	"wandascore-review-score-label": "Genel Puan",
+	"wandascore-review-refresh": "Puanı Yenile",
+	"wandascore-review-timestamp": "Son inceleme",
+	"wandascore-review-bias-label": "Taraflılık Tespiti",
+	"wandascore-review-llm-label": "İnsan Eliyle Yazılmış İçerik",
+	"wandascore-review-language-label": "Dil Kalitesi",
+	"wandascore-review-grammar-label": "Dil bilgisi ve Yazım",
+	"wandascore-review-conciseness-label": "Özlülük",
+	"wandascore-form-legend": "İncelenecek bir sayfa seçin",
+	"wandascore-form-page-label": "Sayfa başlığı",
+	"wandascore-form-submit": "İncelemeyi Görüntüle",
+	"wandascore-error-page-not-found": "\"$1\" sayfası bulunamadı.",
+	"wandascore-error-generation-failed": "Puanlama oluşturulamadı. Lütfen Wanda eklentisinin doğru şekilde yapılandırıldığından emin olun.",
+	"apihelp-wandascore-summary": "Herhangi bir viki sayfası için WandaPuanı al",
+	"apihelp-wandascore-param-page": "Puanlanacak sayfanın başlığı",
+	"apihelp-wandascore-param-refresh": "Önbellekteki değer yerine puanı yeniden hesapla",
+	"apihelp-wandascore-example-1": "Anasayfa için puan al",
+	"apihelp-wandascore-example-2": "Anasayfa için güncel bir puan al"
+}
