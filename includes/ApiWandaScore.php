@@ -4,6 +4,8 @@ namespace MediaWiki\Extension\WandaScore;
 
 use ApiBase;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Request\DerivativeRequest;
+use MediaWiki\Title\Title;
 use Wikimedia\ParamValidator\ParamValidator;
 use WikiPage;
 
@@ -18,7 +20,7 @@ class ApiWandaScore extends ApiBase {
 		$forceRefresh = $params['refresh'];
 
 		// Get the title object
-		$title = \Title::newFromText( $pageTitle );
+		$title = Title::newFromText( $pageTitle );
 		if ( !$title || !$title->exists() ) {
 			$this->dieWithError( [ 'apierror-missingtitle', $pageTitle ] );
 		}
@@ -49,7 +51,7 @@ class ApiWandaScore extends ApiBase {
 	/**
 	 * Generate a score for a page by calling Wanda API multiple times
 	 *
-	 * @param \Title $title
+	 * @param Title $title
 	 * @return array|false
 	 */
 	private function generateScore( $title ) {
@@ -169,7 +171,7 @@ class ApiWandaScore extends ApiBase {
 	 */
 	private function callWandaChat( $question, $instructions ) {
 		$api = new \ApiMain(
-			new \DerivativeRequest(
+			new DerivativeRequest(
 				$this->getRequest(),
 				[
 				'action' => 'wandachat',
@@ -274,9 +276,8 @@ class ApiWandaScore extends ApiBase {
 						$inOrderedList = true;
 					}
 					$result[] = '<li>' . trim( $matches[1] ) . '</li>';
-				}
-				// Check if this is a bullet point
-				elseif ( preg_match( '/^\*\s+(.+)$/', $trimmed, $matches ) ) {
+				} elseif ( preg_match( '/^\*\s+(.+)$/', $trimmed, $matches ) ) {
+					// Check if this is a bullet point
 					if ( $inOrderedList ) {
 						$result[] = '</ol>';
 						$inOrderedList = false;

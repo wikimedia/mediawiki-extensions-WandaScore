@@ -3,6 +3,7 @@
 namespace MediaWiki\Extension\WandaScore\Specials;
 
 use MediaWiki\Html\Html;
+use MediaWiki\Title\Title;
 use SpecialPage;
 
 class SpecialWandaScore extends SpecialPage {
@@ -33,7 +34,7 @@ class SpecialWandaScore extends SpecialPage {
 		}
 
 		// Validate the page exists
-		$title = \Title::newFromText( $pageTitle );
+		$title = Title::newFromText( $pageTitle );
 		if ( !$title || !$title->exists() ) {
 			$out->addHTML(
 				Html::errorBox(

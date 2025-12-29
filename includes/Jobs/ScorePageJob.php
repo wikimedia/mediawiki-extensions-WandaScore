@@ -10,11 +10,13 @@
 namespace MediaWiki\Extension\WandaScore\Jobs;
 
 use Job;
+use MediaWiki\Request\FauxRequest;
+use MediaWiki\Title\Title;
 
 class ScorePageJob extends Job {
 
 	/**
-	 * @param \Title $title
+	 * @param Title $title
 	 * @param array $params
 	 */
 	public function __construct( $title, $params ) {
@@ -31,7 +33,7 @@ class ScorePageJob extends Job {
 
 		// Call the API internally to generate the score
 		$api = new \ApiMain(
-			new \FauxRequest(
+			new FauxRequest(
 				[
 				'action' => 'wandascore',
 				'page' => $pageTitle,
