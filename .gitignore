@@ -9,6 +9,7 @@
 # PHP
 vendor/
 composer.phar
+composer.lock
 
 # Node.js
 node_modules/
