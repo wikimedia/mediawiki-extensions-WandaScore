@@ -59,8 +59,7 @@
             "class": "MediaWiki\\ResourceLoader\\CodexModule",
 			"packageFiles": [
 				"initReview.js",
-				"components/ReviewPage.vue",
-				"codex.js"
+				"components/ReviewPage.vue"
 			],
 			"styles": [
 				"styles/review.css"
