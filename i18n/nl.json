@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"wandascore-desc": "AI-gestuurd systeem voor het beoordelen en recenseren van paginakwaliteit met behulp van de Wanda-uitbreiding",
+	"wandascore-tile-title": "WandaScore",
+	"wandascore-tile-loading": "Bezig met laden…",
+	"wandascore-tile-error": "Fout bij het laden van de score",
+	"wandascore-tile-click-details": "Klik hier om de gedetailleerde recensie te bekijken",
+	"wandascore-review-title": "WandaScore-beoordeling voor",
+	"wandascore-review-loading": "Pagina-inhoud analyseren... Dit kan even duren.",
+	"wandascore-review-error": "Het lukte niet om de beoordeling te laden. Probeer het later opnieuw.",
+	"wandascore-review-score-label": "Algemene score",
+	"wandascore-review-refresh": "Score bijwerken",
+	"wandascore-review-timestamp": "Laatst beoordeeld",
+	"wandascore-review-bias-label": "Vooroordeeldetectie",
+	"wandascore-review-llm-label": "Door mensen geschreven inhoud",
+	"wandascore-review-language-label": "Taalkwaliteit",
+	"wandascore-review-grammar-label": "Grammatica en spelling",
+	"wandascore-review-conciseness-label": "Beknoptheid",
+	"wandascore-form-legend": "Selecteer een pagina om te controleren",
+	"wandascore-form-page-label": "Paginatitel",
+	"wandascore-form-submit": "Controle bekijken",
+	"wandascore-error-page-not-found": "Bestand \"$1\" niet gevonden",
+	"wandascore-error-generation-failed": "Het bepalen van de score is mislukt. Zorg ervoor dat de Wanda-uitbreiding correct is ingesteld.",
+	"apihelp-wandascore-summary": "WandaScore voor een wiki-pagina opvragen",
+	"apihelp-wandascore-param-page": "Titel van de pagina om te beoordelen",
+	"apihelp-wandascore-param-refresh": "De score geforceerd vernieuwen in plaats van de opgeslagen waarde te gebruiken",
+	"apihelp-wandascore-example-1": "Score voor de hoofdpagina opvragen",
+	"apihelp-wandascore-example-2": "Nieuwe score op voor de Hoofdpagina opvragen"
+}
