@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Neriah"
+		]
+	},
+	"wandascore-desc": "מערכת ניקוד וסקירת איכות דפים המופעלת על ידי AI באמצעות ההרחבה Wanda",
+	"wandascore-tile-title": "WandaScore",
+	"wandascore-tile-loading": "בטעינה...",
+	"wandascore-tile-error": "שגיאה בטעינת הניקוד",
+	"wandascore-tile-click-details": "לחץ לצפייה בסקירה מפורטת",
+	"wandascore-review-title": "סקירת WandaScore עבור",
+	"wandascore-review-loading": "ניתוח תוכן הדף... זה עלול לקחת דקה.",
+	"wandascore-review-error": "לא ניתן לטעון את הסקירה. נא לנסות שוב.",
+	"wandascore-review-score-label": "דירוג כללי",
+	"wandascore-review-refresh": "רענון הדירוג",
+	"wandascore-review-timestamp": "סקירה אחרונה",
+	"wandascore-review-bias-label": "גילוי הטיה",
+	"wandascore-review-llm-label": "תוכן שנכתב על ידי אדם",
+	"wandascore-review-language-label": "איכות השפה",
+	"wandascore-review-grammar-label": "דקדוק & איות",
+	"wandascore-review-conciseness-label": "תמציתיות",
+	"wandascore-form-legend": "בחר דף לסקירה",
+	"wandascore-form-page-label": "כותרת הדף",
+	"wandascore-form-submit": "הראה סקירה",
+	"wandascore-error-page-not-found": "הדף \"$1\" לא נמצא",
+	"wandascore-error-generation-failed": "יצירת הדירוג נכשלה. יש לוודא שההרחבה Wanda מוגדרת כראוי.",
+	"apihelp-wandascore-summary": "קבלת WandaScore לדף ויקי",
+	"apihelp-wandascore-param-page": "כותרת הדף לדירוג",
+	"apihelp-wandascore-param-refresh": "רענון כפוי של הדירוג במקום להשתמש בערך המאוחסן במטמון",
+	"apihelp-wandascore-example-1": "קבלת הדירוג לעמוד הראשי",
+	"apihelp-wandascore-example-2": "קבלת דירוג חדש לעמוד הראשי"
+}
