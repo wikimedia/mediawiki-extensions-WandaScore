@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tensama0415"
+		]
+	},
+	"wandascore-desc": "Wanda 확장 기능을 활용한 AI 기반 문서 품질 점수 매기기 및 검토 시스템",
+	"wandascore-tile-title": "WandaScore",
+	"wandascore-tile-loading": "불러오는 중...",
+	"wandascore-tile-error": "점수 불러오기 오류",
+	"wandascore-tile-click-details": "자세한 검토를 보려면 클릭",
+	"wandascore-review-title": "WandaScore 리뷰:",
+	"wandascore-review-loading": "문서 내용을 분석하는 중입니다... 잠시 시간이 걸릴 수 있습니다.",
+	"wandascore-review-error": "검토를 불러올 수 없습니다. 다시 시도해 주세요.",
+	"wandascore-review-score-label": "종합 점수",
+	"wandascore-review-refresh": "점수 새로 고침",
+	"wandascore-review-timestamp": "마지막 검토일",
+	"wandascore-review-bias-label": "편향 탐지",
+	"wandascore-review-llm-label": "사람이 작성한 콘텐츠",
+	"wandascore-review-language-label": "언어 품질",
+	"wandascore-review-grammar-label": "문법 & 맞춤법",
+	"wandascore-review-conciseness-label": "간결성",
+	"wandascore-form-legend": "검토할 문서를 선택",
+	"wandascore-form-page-label": "문서 제목",
+	"wandascore-form-submit": "검토 보기",
+	"wandascore-error-page-not-found": "\"$1\" 문서를 찾을 수 없습니다",
+	"wandascore-error-generation-failed": "점수 생성에 실패했습니다. Wanda 확장 기능이 올바르게 구성되었는지 확인하세요."
+}
