@@ -5,6 +5,7 @@
 		]
 	},
 	"wandascore-desc": "Wanda 확장 기능을 활용한 AI 기반 문서 품질 점수 매기기 및 검토 시스템",
+	"wandascore": "완다스코어",
 	"wandascore-tile-title": "WandaScore",
 	"wandascore-tile-loading": "불러오는 중...",
 	"wandascore-tile-error": "점수 불러오기 오류",
