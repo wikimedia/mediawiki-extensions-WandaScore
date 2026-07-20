@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daisy40"
+		]
+	},
+	"wandascore-tile-loading": "Загрузка...",
+	"wandascore-form-page-label": "Заголовок страницы",
+	"wandascore-error-page-not-found": "Страница «$1» не найдена"
+}
