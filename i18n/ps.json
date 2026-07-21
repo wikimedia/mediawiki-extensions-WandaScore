@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"wandascore": "وانډانومرې",
+	"wandascore-tile-title": "وانډانومرې",
+	"wandascore-tile-loading": "بارېږي...",
+	"wandascore-tile-error": "د نومرې بارولو کې تېروتنه",
+	"wandascore-tile-click-details": "سپناو شوې بياکتنې کتلو لپاره کېکاږئ",
+	"wandascore-review-title": "د وانډانومرې بياکتنه د",
+	"wandascore-review-error": "بیاکتنې بارولو کې پاتې راغی. مهرباني وکړئ بيا هڅه وکړئ.",
+	"wandascore-review-score-label": "ټولټال نومرې",
+	"wandascore-review-refresh": "تازه نومرې",
+	"wandascore-review-timestamp": "وروستۍ بياکتنه",
+	"wandascore-review-llm-label": "انسان ليکلې منځپانگه",
+	"wandascore-review-language-label": "ژبې څرنگوالی",
+	"wandascore-review-grammar-label": "ژبدود او املا",
+	"wandascore-review-conciseness-label": "لنډوالی",
+	"wandascore-form-legend": "بياکتنې لپاره مخ غوره کړئ",
+	"wandascore-form-page-label": "مخ سرليک",
+	"wandascore-form-submit": "بياکتنه کتل",
+	"wandascore-error-page-not-found": "\"$1\" مخ ونه موندل شوه"
+}
