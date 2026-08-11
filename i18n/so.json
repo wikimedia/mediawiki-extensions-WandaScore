@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"wandascore-desc": "Nidaam qiimayn iyo dib u eegis tayada bogagga ah oo ku shaqeeya AI, iyadoo la adeegsanayo kordhinta Wanda",
+	"wandascore-tile-title": "WandaScore",
+	"wandascore-tile-loading": "Soo raraya...",
+	"wandascore-tile-error": "Khalad ayaa dhacay markii la soo gelinayay qiimaynta",
+	"wandascore-tile-click-details": "Guji si aad u aragto dib u eegista faahfaahsan",
+	"wandascore-review-title": "Dib u eegista WandaScore ee",
+	"wandascore-review-loading": "Falanqaynta nuxurka bogga... Tani waxay qaadan kartaa daqiiqad.",
+	"wandascore-review-error": "Lama soo dejin karin dib u eegista. Fadlan mar kale isku day.",
+	"wandascore-review-score-label": "Dhibcaha Guud",
+	"wandascore-review-refresh": "Cusboonaysii Dhibcaha",
+	"wandascore-review-timestamp": "Dib u eegistii ugu dambaysay",
+	"wandascore-review-bias-label": "Ogaanshaha Eexda",
+	"wandascore-review-llm-label": "Nuxur uu qoray aadanaha",
+	"wandascore-review-language-label": "Tayada Luuqadda",
+	"wandascore-review-grammar-label": "Naxwaha iyo Higgaadda",
+	"wandascore-review-conciseness-label": "Koobnaan",
+	"wandascore-form-legend": "Xulo bog dib u eegis lagu sameeyo",
+	"wandascore-form-page-label": "Cinwaanka bogga",
+	"wandascore-form-submit": "Eeg Dib u eegista",
+	"wandascore-error-page-not-found": "Bogga \"$1\" lama helin",
+	"wandascore-error-generation-failed": "Fashilantay soo saarista dhibcaha. Fadlan hubi in kordhinta Wanda si sax ah loo habeeyey.",
+	"apihelp-wandascore-summary": "Hel WandaScore ee bog wiki ah",
+	"apihelp-wandascore-param-page": "Cinwaanka bogga dhibcaha laga siinayo",
+	"apihelp-wandascore-param-refresh": "Ku qas in dhibcaha dib loo cusboonaysiiyo halkii laga isticmaali lahaa qiimaha kaydsan",
+	"apihelp-wandascore-example-1": "Hel dhibcaha Bogga Hore",
+	"apihelp-wandascore-example-2": "Hel dhibco cusub oo loogu talagalay Bogga Hore"
+}
