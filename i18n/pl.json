@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"PanWor"
+		]
+	},
+	"wandascore": "WandaScore",
+	"wandascore-tile-title": "WandaScore",
+	"wandascore-tile-loading": "Wczytywanie…",
+	"wandascore-tile-error": "Wystąpił błąd podczas ładowania oceny",
+	"wandascore-tile-click-details": "Kliknij, aby wyświetlić szczegółową ocenę",
+	"wandascore-review-title": "Ocena WandaScore dla strony",
+	"wandascore-review-loading": "Analizowanie treści strony… Może to chwilę potrwać.",
+	"wandascore-review-error": "Nie udało się wczytać oceny. Spróbuj ponownie.",
+	"wandascore-review-score-label": "Ocena ogólna",
+	"wandascore-review-refresh": "Odśwież ocenę",
+	"wandascore-review-timestamp": "Ostatnio oceniane",
+	"wandascore-review-bias-label": "Ocena stronniczości",
+	"wandascore-review-llm-label": "Treści napisane przez człowieka",
+	"wandascore-review-language-label": "Jakość warstwy językowej",
+	"wandascore-review-grammar-label": "Gramatyka i pisownia",
+	"wandascore-review-conciseness-label": "Zwięzłość",
+	"wandascore-form-legend": "Wybierz stronę do oceny",
+	"wandascore-form-page-label": "Tytuł strony",
+	"wandascore-form-submit": "Wyświetl ocenę",
+	"wandascore-error-page-not-found": "Nie znaleziono strony „$1”",
+	"wandascore-error-generation-failed": "Nie udało się wygenerować oceny. Upewnij się, że rozszerzenie Wanda jest prawidłowo skonfigurowane."
+}
