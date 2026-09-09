@@ -174,10 +174,9 @@ class ApiWandaScore extends ApiBase {
 			new DerivativeRequest(
 				$this->getRequest(),
 				[
-				'action' => 'wandachat',
-				'message' => $question,
-				'usepublicknowledge' => true,
-					'skipesquery' => true,
+					'action' => 'wandachat',
+					'message' => $question,
+					'sources' => [ 'publicknowledge' ],
 					'customprompt' => $instructions,
 					'temperature' => '0',
 					'maxtokens' => '10000'
